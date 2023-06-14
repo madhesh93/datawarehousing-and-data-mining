@@ -1,0 +1,12 @@
+diabetes=read.csv("C:\\Users\\BABY\\Downloads\\diabetes.csv")
+input <- diabetes[,c("Age", "BloodPressure", "Glucose")]
+diabetes <- lm(Age~ BloodPressure+Glucose,data=input)
+print(diabetes)
+A<-coef(diabetes)[1]
+print(A)
+xBloodPressure<- coef(diabetes)[2]
+print(xBloodPressure)
+yGlucose<- coef(diabetes)[3]
+print(yGlucose)
+y=A+xBloodPressure + yGlucose
+print(y)
