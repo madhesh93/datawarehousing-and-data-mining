@@ -1,0 +1,3 @@
+diabetes<-read.csv("C:\\Users\\BABY\\Downloads\\diabetes.csv")
+A<-c(diabetes$Age)
+Maximum<-max(diabetes$Age)
