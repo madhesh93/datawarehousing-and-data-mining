@@ -1,0 +1,4 @@
+diabetes<-read.csv("C:\\Users\\BABY\\Downloads\\diabetes.csv")
+A<-c(diabetes$Age)
+Minmax<-(A-Minimum)/(Maximum-Minimum)
+Minmax
