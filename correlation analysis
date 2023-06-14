@@ -1,0 +1,4 @@
+diabetes<-read.csv("C:\\Users\\BABY\\Downloads\\diabetes.csv")
+diabetes<-table(diabetes $Age,diabetes $Insulin)
+diabetes
+chisq.test(diabetes,simulate.p.value= TRUE )
