@@ -1,0 +1,4 @@
+diabetes<-read.csv("C:\\Users\\BABY\\Downloads\\diabetes.csv")
+A=c(diabetes$Age)
+decimalscaling=(A/100)
+decimalscaling
